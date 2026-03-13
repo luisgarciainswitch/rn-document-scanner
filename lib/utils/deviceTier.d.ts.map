@@ -1,0 +1,1 @@
+{"version":3,"file":"deviceTier.d.ts","sourceRoot":"","sources":["../../src/utils/deviceTier.ts"],"names":[],"mappings":"AAIA,MAAM,MAAM,UAAU,GAAG,KAAK,GAAG,KAAK,GAAG,MAAM,CAAC;AAEhD,MAAM,WAAW,UAAU;IACzB,UAAU,EAAE,MAAM,CAAC;IACnB,gBAAgB,EAAE,MAAM,CAAC;CAC1B;AAQD,wBAAsB,mBAAmB,IAAI,OAAO,CAAC,UAAU,CAAC,CAwB/D"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"scanDocument.d.ts","sourceRoot":"","sources":["../../src/utils/scanDocument.ts"],"names":[],"mappings":"AAeA,OAAO,KAAK,EAAE,UAAU,EAAE,mBAAmB,EAAuC,MAAM,UAAU,CAAC;AA2CrG;;;;;;;GAOG;AACH,wBAAsB,gBAAgB,CACpC,KAAK,EAAE,MAAM,GAAG;IAAE,MAAM,EAAE,MAAM,CAAA;CAAE,EAClC,OAAO,GAAE,mBAAwB,GAChC,OAAO,CAAC,UAAU,CAAC,CAmJrB"}

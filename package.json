@@ -1,0 +1,31 @@
+{
+  "name": "rn-document-scanner",
+  "version": "1.0.0",
+  "description": "Escáner automático de documentos con OpenCV para React Native",
+  "main":  "lib/index.js",
+	"license": "MIT",
+  "types": "lib/index.d.ts",
+  "files": [
+		"lib",
+    "src",
+    "android",
+    "ios",
+    "shared",
+    "rn-document-scanner.podspec",
+    "react-native.config.js"
+  ],
+  "scripts": {
+    "build":      "tsc --project tsconfig.build.json",
+    "prepare":    "npm run build",
+    "typescript": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.80.0",
+    "react-native-vision-camera": "^4.5.0",
+    "react-native-device-info": "^11.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
