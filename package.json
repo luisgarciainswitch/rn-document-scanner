@@ -1,5 +1,5 @@
 {
-  "name": "@inswitchdev/rn-document-scanner",
+  "name": "rn-document-scanner-ishdev",
   "version": "1.0.0",
   "description": "Escáner automático de documentos con OpenCV para React Native",
   "main":  "lib/index.js",
@@ -21,7 +21,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": ">=0.80.0",
+    "react-native": ">=0.74.3",
     "react-native-vision-camera": "^4.5.0",
     "react-native-device-info": "^11.0.0"
   },
