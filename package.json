@@ -1,6 +1,6 @@
 {
   "name": "rn-document-scanner-ishdev",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Escáner automático de documentos con OpenCV para React Native",
   "main":  "lib/index.js",
 	"license": "MIT",
