@@ -102,41 +102,6 @@ Las siguientes funcionalidades están planificadas para versiones futuras. El or
 
 ---
 
-## Instalación
-
-### Desde GitHub Packages
-
-El paquete se publica en el registro npm de GitHub Packages bajo el scope `@luisgarcia`. Para instalarlo necesitas autenticarte:
-
-**1. Crear un Personal Access Token (PAT)**
-
-Ve a GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic) y genera un token con los scopes `read:packages`.
-
-**2. Autenticar el scope en tu proyecto**
-
-Crea o edita el archivo `.npmrc` en la raíz del proyecto host:
-
-```
-@luisgarcia:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken=TU_GITHUB_PAT
-```
-
-> Nunca comitees el token directamente. Usa una variable de entorno:
-> ```
-> //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
-> ```
-> y define `GITHUB_TOKEN` en tu entorno local o CI/CD.
-
-**3. Instalar el paquete**
-
-```bash
-npm install @luisgarcia/rn-document-scanner
-# o con yarn
-yarn add @luisgarcia/rn-document-scanner
-```
-
----
-
 ### Dependencias peer
 
 Instala estas dependencias en el proyecto host si aún no las tienes:
